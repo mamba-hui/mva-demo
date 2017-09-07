@@ -34,9 +34,6 @@ new Controller({
   element: '.module2',
   template: '#module2Template',
   model: model,
-  data: {
-    number: 0
-  },
   events: {
     'click button[name="increase"]': 'increase',
     'click button[name="decrease"]': 'decrease'
