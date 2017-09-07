@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mvc-demo</title>
+</head>
+<body>
+<div class="modules">
+  <div class="module1">
+  </div>
+  <div class="module2">
+    <input type="text" name="number2">
+    <button name="button2">点 我</button>
+  </div>
+  <div class="module3">
+    <input type="text" name="number3">
+    <button name="button3">点 我</button>
+  </div>
+</div>
+<script id="module2Template" type="text/x-handlebars-template">
+  <span>{{number}}</span>
+  <button name="increase">+</button>
+  <button name="decrease">-</button>
+</script>
+</body>
+</html>
